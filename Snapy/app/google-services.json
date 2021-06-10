@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092508019317",
+    "firebase_url": "https://snapy-6da53.firebaseio.com",
+    "project_id": "snapy-6da53",
+    "storage_bucket": "snapy-6da53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092508019317:android:c587a8b12ff5a6c18be63c",
+        "android_client_info": {
+          "package_name": "com.example.snapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092508019317-jk5eimpcmi8v40jpld0ppjk25neltgd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQMAiO6-ZRD9OR_RUfDETxJsNAiI655lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092508019317-jk5eimpcmi8v40jpld0ppjk25neltgd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

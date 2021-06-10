@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSignUp.SignUp"
+    android:background="@drawable/ic_common_bg"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="238dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/cp_logo" />
+
+    <TextView
+        android:id="@+id/login_transaction"
+        android:layout_width="195dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/logo"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/register_transaction"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/login_transaction"
+        android:text="REGISTER"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="185dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/register_transaction"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-56dp"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/register_image"
+        android:layout_width="367dp"
+        android:layout_height="382dp"
+        android:layout_below="@id/imageView10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-58dp"
+        android:layout_marginRight="15dp"
+        app:srcCompat="@drawable/registration" />
+
+    <EditText
+        android:id="@+id/etnameregister"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView10"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#55A8E1"
+        android:fontFamily="@font/balthazar"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etEmailregister"
+        android:layout_width="346dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etnameregister"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#55A8E1"
+        android:fontFamily="@font/balthazar"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etpasswrdregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailregister"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#55A8E1"
+        android:fontFamily="@font/balthazar"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etDobregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etpasswrdregister"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#55A8E1"
+        android:fontFamily="@font/balthazar"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/llGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDobregister"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvgenderregister"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Gender: "
+            android:fontFamily="@font/balthazar"
+            android:textColor="#0D5281"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbmaleregister"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/balthazar"
+                android:textColor="#0D5281"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rbfemaleregister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:fontFamily="@font/balthazar"
+                android:textColor="#0D5281"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rbOtherregister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/balthazar"
+                android:textColor="#0D5281"
+                android:text="Other"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/llGender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="29dp"
+        android:background="@drawable/btn_login_bg"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Register"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btnSignup"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

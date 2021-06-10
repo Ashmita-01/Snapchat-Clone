@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Snapy</string>
+    <string name="job_success">Job Success</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="about_me">About Me</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="contact">Contact</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
